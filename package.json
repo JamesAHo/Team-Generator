@@ -8,6 +8,25 @@
   "scripts": {
     "start": "node index",
     "watch": "nodemon index",
-    "test": "jest"  
-  }
+    "test": "jest --coverage"
+  },
+  
+  "name": "team-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesAHo/Team-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesAHo/Team-Generator/issues"
+  },
+  "homepage": "https://github.com/JamesAHo/Team-Generator#readme"
 }

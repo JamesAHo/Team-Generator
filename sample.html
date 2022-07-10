@@ -15,16 +15,18 @@
     </header>
     <main>
         <div class="card">
-            <div class="card-header bg-danger">
-              <p class='text-light'>Name: ${teamArray[i].name}</p>
-              <p class='text-light'><i class="fas fa-mug-hot" style='margin-right: 0.5vw;'></i>Manager</p>
+          <div class="card" style="width: 18rem; display: inline-block">
+            <div class="card-header bg-warning">
+              <p class='text-dark'>Name: ${RosterArray[i].name}</p>
+              <p class='text-dark'><i class="fas fa-graduation-cap" style='margin-right: 0.5vw;'></i>Intern</p>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">ID: ${teamArray[i].id}</li>
-              <li class="list-group-item">Email: <a href="mailto:${teamArray[i].email}">${teamArray[i].email}</a></li>
-              <li class="list-group-item">Office Number: ${teamArray[i].officeNumber}</li>
+              <li class="list-group-item">ID: ${RosterArray[i].id}</li>
+              <li class="list-group-item">Email: <a href="mailto:${RosterArray[i].email}">${RosterArray[i].email}</a></li>
+              <li class="list-group-item">School: ${RosterArray[i].school}</li>
             </ul>
           </div>
+        </div>
     </main>
     
 </body>
